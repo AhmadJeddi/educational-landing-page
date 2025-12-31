@@ -1,7 +1,5 @@
 # Educational Landing Page
 
-[Demo Online](https://your-username.github.io/educational-landing-page/)
-
 ---
 
 ## 🇮🇷 معرفی پروژه (فارسی)
