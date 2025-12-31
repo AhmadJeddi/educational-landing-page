@@ -1,6 +1,4 @@
-# Educational Landing Page
-
-[Demo Online](https://your-username.github.io/educational-landing-page/)
+# 🎓 Educational Landing Page
 
 ---
 
@@ -11,11 +9,11 @@
 
 ### ویژگی‌ها
 
-* طراحی کاملاً ریسپانسیو
-* کارت‌های دوره آموزشی
-* بخش سوالات متداول (Accordion)
-* منوی ناوبری ریسپانسیو
-* بدون استفاده از فریم‌ورک
+* 📱 طراحی کاملاً ریسپانسیو
+* 📝 کارت‌های دوره آموزشی
+* ❓ بخش سوالات متداول (Accordion)
+* 🧭 منوی ناوبری ریسپانسیو
+* 🚫 بدون استفاده از فریم‌ورک
 
 ---
 
@@ -27,20 +25,20 @@ This project includes course cards, FAQ accordion, responsive navigation menu, a
 
 ### Features
 
-* Fully responsive layout
-* Course cards section
-* FAQ accordion
-* Responsive navigation
-* No frameworks used
+* 📱 Fully responsive layout
+* 📝 Course cards section
+* ❓ FAQ accordion
+* 🧭 Responsive navigation
+* 🚫 No frameworks used
 
 ---
 
 ## 🛠 Technologies Used
 
-* HTML5
-* CSS3
-* Vanilla JavaScript
-* Font Awesome
+* 🌐 HTML5
+* 🎨 CSS3
+* 💻 Vanilla JavaScript
+* ⭐ Font Awesome
 
 ---
 
