@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import url(_top-bar.css);
+@import url(_navbar.css);
+@import url(_header.css);
+@import url(_course.css);
+@import url(_about-us.css);
+@import url(_teachers.css);
+@import url(_status.css);
+@import url(_topic.css);
+@import url(_faq.css);
+@import url(_footer.css);
+@font-face {
+  font-family: Sahel;
+  src: url("../fonts/Sahel.eot");
+  src: url("../fonts/Sahel.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Sahel.woff2") format("woff2"),
+    url("../fonts/Sahel.woff") format("woff"),
+    url("../fonts/Sahel.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sahel;
+}
+html {
+  scroll-padding-top: 105px;
+}
+@media screen and (max-width: 767px) {
+  html {
+    scroll-padding-top: 407px;
+  }
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul,
+ol {
+  list-style: none;
+}
+:root {
+  /* --primary: #e64a19; */
+  --primary: #ffa500;
+  --text-color: #7c8383;
+  --topbar-footer-bg: #2a3554;
+  scroll-behavior: smooth;
+}
+.section-title h5 {
+  margin: 40px;
+  font-size: 20px;
+}
+.section-title span::before {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: var(--primary);
+  position: absolute;
+  right: -50px;
+  top: 15px;
+}
+.section-title span::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: var(--primary);
+  position: absolute;
+  left: -50px;
+  top: 15px;
+}
+.chat-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  font-size: 28px;
+  background-color: var(--primary);
+  color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  box-shadow: 0px 0px 10px 0px rgb(122, 122, 122);
+}
+.chat-btn i {
+  vertical-align: bottom;
+  margin-top: 17px;
+}
+.chat-btn:hover {
+  background-color: #e59409;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: #dbdbdb;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #e59409;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

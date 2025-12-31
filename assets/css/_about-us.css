@@ -1,0 +1,23 @@
+/* start about-us section style */
+.about-us-left-side {
+  background-color: #f3f3f3;
+  padding: 40px;
+}
+.about-us-left-side h4 {
+  border-bottom: 1px solid #e2e2e2;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.about-us-left-side p {
+  padding: 20px;
+  font-size: 18px;
+  color: #383838;
+  text-align: justify;
+}
+.about-us-left-side a {
+  color: #fff;
+  background-color: var(--primary);
+  padding: 5px 10px;
+  float: left;
+  border-radius: 3px;
+}

@@ -1,0 +1,132 @@
+/* start navbar section style */
+.nav {
+  background-color: #fff;
+  box-shadow: 0 2px 3px #00000060;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  line-height: 35px;
+}
+.nav a {
+  font-size: 18px;
+  display: inline-block;
+  /* float: right; */
+  text-align: center;
+  border-bottom: 2px solid transparent;
+  padding: 14px;
+}
+.nav a:not(:first-child):hover {
+  border-bottom: 2px solid var(--primary);
+}
+.active {
+  border-bottom: 2px solid var(--primary) !important;
+}
+a.menu-icon,
+a.user-icon {
+  display: none;
+}
+.nav .fa-graduation-cap {
+  color: var(--primary);
+  transform: scale(1.5);
+  vertical-align: middle;
+  transition: transform 0.2s linear;
+}
+.nav .fa-graduation-cap:hover {
+  transform: scale(1.9);
+}
+.nav-left-side {
+  float: left;
+}
+.nav-left-side .sign-in {
+  padding: 12px;
+  background-color: var(--primary);
+  font-size: 15px;
+  color: #fff;
+  top: 12px;
+  left: 0;
+  width: 110px;
+  height: 41px;
+  line-height: 14px;
+  border-radius: 3px;
+}
+.nav-left-side .sign-in:hover {
+  border: 2px solid var(--primary);
+  background-color: #fff;
+  color: var(--primary);
+  line-height: 12px;
+}
+.nav-left-side button {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  border: 2px dashed var(--primary);
+  margin-left: 130px;
+  margin-top: 12px;
+  font-size: 16px;
+  color: var(--primary);
+  background-color: #fff;
+}
+.nav-left-side button:hover {
+  color: #fff;
+  background-color: var(--primary);
+  background-clip: padding-box;
+}
+@media screen and (max-width: 767px) {
+  .nav a:not(:first-child) {
+    display: none;
+  }
+  .nav a.menu-icon {
+    display: block;
+    float: right;
+  }
+  .nav.responsive a:not(:first-child) {
+    display: block;
+  }
+  .nav.responsive a.user-icon {
+    display: none;
+  }
+  .nav a.sign-in {
+    display: block;
+  }
+  .nav.responsive a.menu-icon {
+    position: absolute;
+    top: 0px;
+  }
+  .nav.responsive .fa-graduation-cap {
+    position: absolute;
+    top: 22px;
+    right: 88px;
+  }
+  .nav a:not(:first-child):hover {
+    border-bottom: 2px solid var(--primary);
+  }
+  .nav-left-side {
+    position: absolute;
+    top: 0;
+    left: 30px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .nav a.user-icon {
+    display: block;
+    float: left;
+    border-radius: 50%;
+    margin-top: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: var(--primary);
+    padding: 2px 13.5px;
+  }
+  .nav-left-side button {
+    margin-left: 10px;
+  }
+  .nav a.sign-in {
+    display: none;
+  }
+  .nav.responsive a.user-icon {
+    display: block;
+  }
+  .nav.responsive a.sign-in {
+    display: none;
+  }
+}

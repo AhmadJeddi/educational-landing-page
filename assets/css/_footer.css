@@ -1,0 +1,115 @@
+/* start footer section style */
+.footer-section-wrapper {
+  background-color: var(--topbar-footer-bg);
+}
+footer .service h6,
+.social h6,
+.contact-us h6 {
+  padding: 30px 0 10px;
+  border-bottom: 1px solid #88878759;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+}
+footer .desc {
+  padding-top: 25px;
+}
+footer .desc i {
+  color: #7b8ea1;
+  font-size: 34px;
+  padding-left: 10px;
+  vertical-align: middle;
+  transition: color 0.6s ease;
+}
+footer .desc a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  transition: color 0.6s ease;
+}
+footer .desc a:hover > i {
+  color: #fff;
+}
+footer .desc a:hover {
+  color: #7b8ea1;
+}
+footer .desc p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 10px;
+}
+footer .service li {
+  padding: 4px;
+}
+footer .service a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  transition: padding-right 0.5s ease;
+}
+footer .service a::before {
+  content: "\276f";
+  padding-left: 10px;
+  vertical-align: -2px;
+}
+footer .service a:hover {
+  padding-right: 15px;
+  color: var(--primary);
+}
+footer .social ul {
+  direction: ltr;
+  padding-top: 10px;
+}
+footer .social i {
+  font-size: 22px;
+  padding-left: 15px;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+footer .social i:hover {
+  color: var(--primary);
+}
+footer .social form {
+  margin-top: 20px;
+}
+footer .social input[type="email"] {
+  border: none;
+  outline: none;
+  padding: 5px 5px 5px 58px;
+  width: 100%;
+  font-weight: bold;
+}
+footer .social input[type="submit"] {
+  border: none;
+  top: 0px;
+  left: 0px;
+  padding: 5px;
+  color: #fff;
+  background-color: var(--primary);
+  cursor: pointer;
+}
+footer .contact-us i {
+  font-size: 22px;
+  padding-left: 15px;
+  vertical-align: middle;
+}
+footer .contact-us li {
+  color: #fff;
+  padding-top: 10px;
+}
+footer .copy-right {
+  color: var(--text-color);
+  font-size: 13px;
+  margin-top: 20px;
+  border-top: 1px solid #88878759;
+  overflow: auto;
+  padding: 5px 0;
+}
+footer .copy-right p {
+  display: inline-block;
+}
+footer .copy-right span {
+  direction: ltr;
+  float: left;
+}

@@ -1,0 +1,31 @@
+/* start course section style */
+.course-card {
+  box-shadow: 1px 1px 1px rgb(240, 240, 240);
+}
+.course-card .card-body {
+  padding: 10px;
+}
+.course-title {
+  top: 10px;
+  right: 80px;
+}
+.course-title p {
+  font-size: 14px;
+  color: var(--text-color);
+}
+.course-card .card-header {
+  transition: filter 0.2s ease-in;
+}
+.course-card .card-header:hover {
+  filter: brightness(0.9) blur(1px);
+}
+@media screen and (min-width: 768px) and (max-width: 830px) {
+  p {
+    display: none;
+  }
+  .course-title a {
+    margin-top: 12px;
+    display: inline-block;
+    line-height: 20px;
+  }
+}

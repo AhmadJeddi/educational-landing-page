@@ -1,0 +1,85 @@
+/* start faq section style */
+.faq-section-wrapper {
+  background-image: url(../img/faq-bg.webp);
+  background-size: cover;
+}
+.faq-right-side {
+  background-color: #fff;
+  padding: 55px;
+  margin: 85px 0;
+  box-shadow: 1px 5px 15px 2px rgba(94, 94, 94, 0.5);
+  text-align: justify;
+}
+.faq-right-side i {
+  /* color: rgb(106, 106, 255); */
+  color: rgb(88, 88, 252);
+  font-size: 32px;
+  vertical-align: middle;
+}
+.fa-dollar-sign {
+  padding: 0 6px 0 20px;
+}
+.fa-user-graduate {
+  padding-left: 20px;
+}
+.fa-headset {
+  padding-left: 15px;
+}
+.faq-right-side h6 {
+  font-size: 16px;
+}
+.faq-right-side p {
+  font-size: 16px;
+  color: var(--text-color);
+  padding-right: 48px;
+}
+.faq-left-side {
+  background-color: #fff;
+  margin: 85px 0;
+  box-shadow: 1px 5px 15px 2px rgba(94, 94, 94, 0.5);
+}
+.faq-left-side input {
+  display: none;
+}
+.faq-left-side label {
+  background-color: rgb(88, 88, 252);
+  display: block;
+  padding: 10px;
+  color: #fff;
+  transition: all 0.5s ease;
+  font-size: 18px;
+}
+.faq-left-side label:hover {
+  background-color: rgb(51, 51, 241);
+  cursor: pointer;
+}
+.faq-left-side input:checked ~ label {
+  background-color: rgb(51, 51, 241);
+}
+.faq-left-side label::after {
+  content: "\276f";
+  float: left;
+  transition: all 0.45s linear;
+}
+.faq-left-side input:checked ~ label::after {
+  transform: rotate(-90deg);
+}
+.faq-left-side .tab {
+  overflow: hidden;
+}
+.faq-left-side .tab-content {
+  max-height: 0;
+  transition: all 0.5s linear;
+  font-size: 16px;
+  overflow-y: scroll;
+  padding: 0 10px;
+}
+.faq-left-side input:checked ~ .tab-content {
+  max-height: 108px;
+  padding: 5px 10px;
+}
+@media screen and (max-width: 767.9px) {
+  .faq-right-side {
+    margin: 85px 0 0;
+  }
+}

@@ -1,0 +1,50 @@
+/* start topic section style */
+.topic-section-wrapper {
+  background-image: url(../img/worldmap.webp);
+  background-position: center;
+}
+.topic-card {
+  background-color: #fff;
+  box-shadow: 1px 5px 15px 2px rgba(94, 94, 94, 0.5);
+}
+.topic-card .card-header {
+  overflow: hidden;
+}
+.topic-card img {
+  transition: transform 0.7s ease;
+}
+.topic-card:hover img {
+  transform: scale(1.4) rotate(-10deg);
+}
+.topic-card .card-body {
+  margin: 30px 0;
+  padding: 10px;
+}
+.topic-card .card-body p {
+  margin-top: 20px;
+  color: var(--text-color);
+  line-height: 30px;
+}
+.topic-card .post-date {
+  top: -55px;
+  right: 20px;
+  width: 45px;
+  color: #fff;
+}
+.topic-card .post-date div:first-child {
+  background-color: var(--primary);
+}
+.topic-card .post-date div:last-child {
+  background-color: #dedede;
+}
+.topic-card .card-footer {
+  border-top: 1px solid #f4f4f4;
+}
+.topic-card .card-footer li {
+  display: inline-block;
+  color: #d0d0d0;
+  margin: 5px 10px;
+}
+.topic-card .card-footer span {
+  margin-right: 5px;
+}

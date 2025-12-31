@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>آموزش نوین</title>
+    <link
+      type="image/png"
+      sizes="96x96"
+      rel="icon"
+      href="https://img.icons8.com/fluency/48/student-center.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/grid-system.css" />
+  </head>
+  <body>
+    <!-- start top-bar section -->
+    <section id="home" class="container-fluid top-bar">
+      <div class="row">
+        <div class="container">
+          <div class="col-xs-6 contact">
+            <i class="fa-solid fa-envelope xs-hidden s-hidden"
+              ><span>jeddi.dev@gmail.com</span></i
+            >
+            <i class="fa-solid fa-phone"><span>09180000000</span></i>
+          </div>
+          <div class="col-xs-6 social-media">
+            <a href=""><i class="fa-brands fa-telegram"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook xs-hidden"></i></a>
+            <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href=""><i class="fa-solid fa-rss"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end top-bar section -->
+
+    <!-- start navbar section -->
+    <nav id="mynav" class="nav">
+      <div class="row">
+        <div class="container">
+          <div class="col-xs-12">
+            <a href="#home"><i class="fa-solid fa-graduation-cap"></i></a>
+            <a class="active" href="#home">خانه</a>
+            <a href="#course">دورهای آموزشی</a>
+            <a href="#about-us">درباره ما</a>
+            <a href="#teachers">تیم ما</a>
+            <a href="#topic">مطالب</a>
+            <a
+              href="javascript:void(0);"
+              class="menu-icon"
+              onclick="myFunction()"
+              ><i class="fa-solid fa-bars"></i
+            ></a>
+            <div class="nav-left-side relative">
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+              <a class="sign-in absolute" href="">ورود / عضویت</a>
+              <a class="user-icon" href=""
+                ><i class="fa-regular fa-user"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar section -->
+
+    <!-- start header section -->
+    <header class="container-fluid">
+      <div class="row">
+        <figure class="col-xs-12 p-0 relative">
+          <div class="overlay absolute">
+            <div class="header-title absolute">
+              <h1 class="mb-20">مبتکر آموزش نوین</h1>
+              <h3 class="mb-20">برگزار کننده دورهای تخصصی برنامه نویسی</h3>
+              <a href="">بیشتر بدانید...</a>
+            </div>
+          </div>
+          <img
+            class="img-header img-responsive"
+            src="assets/img/header.webp"
+            alt="header"
+          />
+          <a href="#course" class="arrow-bottom-circle absolute l-hidden"></a>
+        </figure>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- start course section -->
+    <section id="course" class="container-fluid">
+      <div class="section-title text-center">
+        <h5><span class="relative">دورهای آموزشی</span></h5>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-s-6 col-md-4 mb-30">
+            <div class="course-card">
+              <div class="card-header">
+                <a href="">
+                  <img
+                    class="img-responsive"
+                    src="assets/img/wordpress.webp"
+                    alt=">متخصص وردپرس"
+                /></a>
+              </div>
+              <div class="card-body relative">
+                <img src="assets/img/wordpress.svg" alt="" />
+                <div class="course-title absolute">
+                  <a href="">متخصص وردپرس</a>
+                  <p>قالب های حرفه ای و اختصاصی خودت رو بساز</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-s-6 col-md-4 mb-30">
+            <div class="course-card">
+              <div class="card-header">
+                <a href="">
+                  <img
+                    class="img-responsive"
+                    src="assets/img/html.webp"
+                    alt="آموزش طراحی وب"
+                /></a>
+              </div>
+              <div class="card-body relative">
+                <img src="assets/img/html.svg" alt="" />
+                <div class="course-title absolute">
+                  <a href="">آموزش طراحی وب</a>
+                  <p>جامع و پروژه‌محور؛ از پایه تا رسیدن به کسب درآمد</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-s-6 col-md-4 mb-30">
+            <div class="course-card">
+              <div class="card-header">
+                <a href="">
+                  <img
+                    class="img-responsive"
+                    src="assets/img/data-science.webp"
+                    alt="آموزش یادگیری ماشین و علم داده"
+                /></a>
+              </div>
+              <div class="card-body relative">
+                <img src="assets/img/data-science.svg" alt="" />
+                <div class="course-title absolute">
+                  <a href="">آموزش یادگیری ماشین و علم داده</a>
+                  <p>تحلیل‌گر حرفه‌ای داده شوید</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-s-6 col-md-4 mb-30">
+            <div class="course-card">
+              <div class="card-header">
+                <a href="">
+                  <img
+                    class="img-responsive"
+                    src="assets/img/python.webp"
+                    alt="آموزش پایتون توسعه وب"
+                /></a>
+              </div>
+              <div class="card-body relative">
+                <img src="assets/img/python.svg" alt="" />
+                <div class="course-title absolute">
+                  <a href="">آموزش پایتون توسعه وب</a>
+                  <p>جامع و پروژه‌محور؛ از پایه تا رسیدن به کسب درآمد</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-s-6 col-md-4 mb-30">
+            <div class="course-card">
+              <div class="card-header">
+                <a href="">
+                  <img
+                    class="img-responsive"
+                    src="assets/img/java.webp"
+                    alt="دوره تخصصی طراحی وب"
+                /></a>
+              </div>
+              <div class="card-body relative">
+                <img src="assets/img/java.svg" alt="" />
+                <div class="course-title absolute">
+                  <a href="">آموزش جاوا</a>
+                  <p>یک بار کد بزن, همه جا استفاده کن</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-s-6 col-md-4 mb-30">
+            <div class="course-card">
+              <div class="card-header">
+                <a href="">
+                  <img
+                    class="img-responsive"
+                    src="assets/img/linux.webp"
+                    alt="آموزش لینوکس"
+                /></a>
+              </div>
+              <div class="card-body relative">
+                <img src="assets/img/linux.svg" alt="" />
+                <div class="course-title absolute">
+                  <a href="">آموزش لینوکس</a>
+                  <p>لینوکس رو کاربردی یاد بگیر</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end course section -->
+
+    <!-- start about-us section -->
+    <section id="about-us" class="container-fluid">
+      <div class="section-title text-center">
+        <h5><span class="relative">درباره ما</span></h5>
+      </div>
+      <div class="row">
+        <div
+          class="col-xs-12 col-s-12 col-md-12 col-l-6 xs-hidden s-hidden md-hidden"
+        >
+          <img
+            class="img-responsive"
+            src="assets/img/about-us.webp"
+            alt="درباره ما"
+          />
+        </div>
+        <div class="col-xs-12 col-s-12 col-md-12 col-l-6 about-us-left-side">
+          <h4>درباره ما</h4>
+          <p>
+            تیم برنرز لی، مخترع وب، با برپایی یک سایت وب در اوت ۱۹۹۱، نام خود را
+            به عنوان نخستین سازندهٔ وب در تاریخ نگاشت. او در نخستین وب سایتش، از
+            اَبَرمتن و پیوندی برای ایمیل (پست الکترونیک) استفاده کرده بود. در
+            آغاز، وب سایت‌ها با کُدهای ساده HTML نوشته می‌شدند
+          </p>
+          <a href="">ادامه مطلب...</a>
+        </div>
+      </div>
+    </section>
+    <!-- end about-us section -->
+
+    <!-- start teachers section -->
+    <section
+      id="teachers"
+      class="container-fluid teachers-section-wrapper mt-80"
+    >
+      <div class="row">
+        <div
+          class="col-xs-12 col-s-12 col-md-10 col-md-offset-1 col-l-8 col-l-offset-2 relative"
+        >
+          <img
+            class="img-responsive"
+            src="assets/img/teachers.webp"
+            alt="مدرسین"
+          />
+          <div class="teachers-title text-center absolute">
+            <h4>مدرسین سیستم آموزشی <span>نوین</span></h4>
+            <a href="">بیشتر...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end teachers section -->
+
+    <!-- start status section -->
+    <section class="container-fluid status-section-wrapper">
+      <div class="row">
+        <div class="container">
+          <div class="col-xs-3 text-center">
+            <img src="assets/img/icon-article.webp" alt="مقالات" />
+            <div class="count">123</div>
+            <p class="count-title">مقالات</p>
+          </div>
+          <div class="col-xs-3 text-center">
+            <img src="assets/img/icon-student.webp" alt="دانشجو" />
+            <div class="count">12456</div>
+            <p class="count-title">دانشجو</p>
+          </div>
+          <div class="col-xs-3 text-center">
+            <img src="assets/img/icon-teachers.webp" alt="اساتید" />
+            <div class="count">50</div>
+            <p class="count-title">اساتید</p>
+          </div>
+          <div class="col-xs-3 text-center">
+            <img src="assets/img/icon-trophy.webp" alt="دست آورد" />
+            <div class="count">12</div>
+            <p class="count-title">دست آورد</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end status section -->
+
+    <!-- start topic section -->
+    <section id="topic" class="container-fluid">
+      <div class="section-title text-center">
+        <h5><span class="relative">جدیدترین مطالب</span></h5>
+      </div>
+      <div class="row topic-section-wrapper">
+        <div class="container">
+          <div class="col-xs-12 col-s-6 col-md-4 col-l-3 mb-30">
+            <div class="topic-card">
+              <div class="card-header">
+                <img
+                  class="img-responsive"
+                  src="assets/img/banner-php.webp"
+                  alt="دوره متخصص PHP"
+                />
+              </div>
+              <div class="card-body relative">
+                <div class="post-date text-center absolute">
+                  <div>16</div>
+                  <div>تیر</div>
+                </div>
+                <a href="">دوره متخصص PHP</a>
+                <p>در این جلسه می پردازیم به ادامه مباحث این دوره...</p>
+              </div>
+              <div class="card-footer text-center">
+                <ul>
+                  <li><i class="fa-regular fa-eye"></i><span>123</span></li>
+                  <li>
+                    <i class="fa-regular fa-comments"></i><span>123</span>
+                  </li>
+                  <li><i class="fa-regular fa-heart"></i><span>123</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-s-6 col-md-4 col-l-3 mb-30">
+            <div class="topic-card">
+              <div class="card-header">
+                <img
+                  class="img-responsive"
+                  src="assets/img/banner-web.webp"
+                  alt="دوره متخصص طراحی وب"
+                />
+              </div>
+              <div class="card-body relative">
+                <div class="post-date text-center absolute">
+                  <div>16</div>
+                  <div>تیر</div>
+                </div>
+                <a href="">دوره متخصص طراحی وب</a>
+                <p>در این جلسه می پردازیم به ادامه مباحث این دوره...</p>
+              </div>
+              <div class="card-footer text-center">
+                <ul>
+                  <li><i class="fa-regular fa-eye"></i><span>123</span></li>
+                  <li>
+                    <i class="fa-regular fa-comments"></i><span>123</span>
+                  </li>
+                  <li><i class="fa-regular fa-heart"></i><span>123</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-s-6 col-md-4 col-l-3 mb-30">
+            <div class="topic-card">
+              <div class="card-header">
+                <img
+                  class="img-responsive"
+                  src="assets/img/banner-js.webp"
+                  alt="دوره متخصص جاوا اسکریپت"
+                />
+              </div>
+              <div class="card-body relative">
+                <div class="post-date text-center absolute">
+                  <div>16</div>
+                  <div>تیر</div>
+                </div>
+                <a href="">دوره متخصص جاوا اسکریپت</a>
+                <p>در این جلسه می پردازیم به ادامه مباحث این دوره...</p>
+              </div>
+              <div class="card-footer text-center">
+                <ul>
+                  <li><i class="fa-regular fa-eye"></i><span>123</span></li>
+                  <li>
+                    <i class="fa-regular fa-comments"></i><span>123</span>
+                  </li>
+                  <li><i class="fa-regular fa-heart"></i><span>123</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-s-6 col-md-4 col-l-3 mb-30">
+            <div class="topic-card">
+              <div class="card-header">
+                <img
+                  class="img-responsive"
+                  src="assets/img/banner-wordpress.webp"
+                  alt="دوره متخصص وردپرس"
+                />
+              </div>
+              <div class="card-body relative">
+                <div class="post-date text-center absolute">
+                  <div>16</div>
+                  <div>تیر</div>
+                </div>
+                <a href="">دوره متخصص وردپرس</a>
+                <p>در این جلسه می پردازیم به ادامه مباحث این دوره...</p>
+              </div>
+              <div class="card-footer text-center">
+                <ul>
+                  <li><i class="fa-regular fa-eye"></i><span>123</span></li>
+                  <li>
+                    <i class="fa-regular fa-comments"></i><span>123</span>
+                  </li>
+                  <li><i class="fa-regular fa-heart"></i><span>123</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-s-6 col-md-4 col-l-3 mb-30">
+            <div class="topic-card">
+              <div class="card-header">
+                <img
+                  class="img-responsive"
+                  src="assets/img/banner-android.webp"
+                  alt="دوره متخصص اندروید"
+                />
+              </div>
+              <div class="card-body relative">
+                <div class="post-date text-center absolute">
+                  <div>16</div>
+                  <div>تیر</div>
+                </div>
+                <a href="">دوره متخصص اندروید</a>
+                <p>در این جلسه می پردازیم به ادامه مباحث این دوره...</p>
+              </div>
+              <div class="card-footer text-center">
+                <ul>
+                  <li><i class="fa-regular fa-eye"></i><span>123</span></li>
+                  <li>
+                    <i class="fa-regular fa-comments"></i><span>123</span>
+                  </li>
+                  <li><i class="fa-regular fa-heart"></i><span>123</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-s-6 col-md-4 col-l-3 mb-30">
+            <div class="topic-card">
+              <div class="card-header">
+                <img
+                  class="img-responsive"
+                  src="assets/img/banner-laravel.webp"
+                  alt="دوره متخصص لاراول"
+                />
+              </div>
+              <div class="card-body relative">
+                <div class="post-date text-center absolute">
+                  <div>16</div>
+                  <div>تیر</div>
+                </div>
+                <a href="">دوره متخصص لاراول</a>
+                <p>در این جلسه می پردازیم به ادامه مباحث این دوره...</p>
+              </div>
+              <div class="card-footer text-center">
+                <ul>
+                  <li><i class="fa-regular fa-eye"></i><span>123</span></li>
+                  <li>
+                    <i class="fa-regular fa-comments"></i><span>123</span>
+                  </li>
+                  <li><i class="fa-regular fa-heart"></i><span>123</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-s-6 col-md-4 col-l-3 mb-30">
+            <div class="topic-card">
+              <div class="card-header">
+                <img
+                  class="img-responsive"
+                  src="assets/img/banner-seo.webp"
+                  alt="دوره متخصص سئو"
+                />
+              </div>
+              <div class="card-body relative">
+                <div class="post-date text-center absolute">
+                  <div>16</div>
+                  <div>تیر</div>
+                </div>
+                <a href="">دوره متخصص سئو</a>
+                <p>در این جلسه می پردازیم به ادامه مباحث این دوره...</p>
+              </div>
+              <div class="card-footer text-center">
+                <ul>
+                  <li><i class="fa-regular fa-eye"></i><span>123</span></li>
+                  <li>
+                    <i class="fa-regular fa-comments"></i><span>123</span>
+                  </li>
+                  <li><i class="fa-regular fa-heart"></i><span>123</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-s-6 col-md-4 col-l-3 mb-30">
+            <div class="topic-card">
+              <div class="card-header">
+                <img
+                  class="img-responsive"
+                  src="assets/img/banner-ui.webp"
+                  alt="دوره متخصص رابط کاربری"
+                />
+              </div>
+              <div class="card-body relative">
+                <div class="post-date text-center absolute">
+                  <div>16</div>
+                  <div>تیر</div>
+                </div>
+                <a href="">دوره متخصص رابط کاربری</a>
+                <p>در این جلسه می پردازیم به ادامه مباحث این دوره...</p>
+              </div>
+              <div class="card-footer text-center">
+                <ul>
+                  <li><i class="fa-regular fa-eye"></i><span>123</span></li>
+                  <li>
+                    <i class="fa-regular fa-comments"></i><span>123</span>
+                  </li>
+                  <li><i class="fa-regular fa-heart"></i><span>123</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end topic section -->
+
+    <!-- start faq section -->
+    <section class="container-fluid">
+      <div class="section-title text-center">
+        <h5><span class="relative">سوالات متداول</span></h5>
+      </div>
+      <div class="row faq-section-wrapper">
+        <div class="container">
+          <div class="col-xs-12 col-md-6">
+            <div class="faq-right-side">
+              <ul>
+                <li class="mb-20">
+                  <h6>
+                    <i class="fa-solid fa-dollar-sign"></i>ضمانت بازگشت وجه
+                  </h6>
+                  <p>
+                    خرید و ثبت نام شما در دوره‌های بلند مدت بدون ریسک مالی خواهد
+                    بود
+                  </p>
+                </li>
+                <li class="mb-20">
+                  <h6>
+                    <i class="fa-solid fa-user-graduate"></i>آموزش مهارت محور
+                  </h6>
+                  <p>
+                    از مدرسین متخصص و با تجربه در بهترین شرکت‌های ایران مهارت
+                    مورد نیاز بازار کار را یاد می‌گیرید
+                  </p>
+                </li>
+                <li>
+                  <h6>
+                    <i class="fa-solid fa-headset"></i>۱۲ ماه پشتیبانی پس از
+                    خرید
+                  </h6>
+                  <p>
+                    تا ۱۲ ماه پس از ثبت نامتان، در جامعه برنامه نویسی ما،
+                    پشتیبانی ویژه دریافت می‌کنید
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="faq-left-side">
+              <div class="tab">
+                <input type="checkbox" id="check1" />
+                <label for="check1"
+                  >بهترین روش یادگیری برنامه نویسی چیست؟</label
+                >
+                <div class="tab-content">
+                  وقتی در مورد بهترین روش یادگیری یک زبان برنامه نویسی خاص صحبت
+                  می‌شود باید بدانید که شما باید موارد مختلفی را درنظر بگیرید.
+                  من دو مورد از مهمترین‌ها را اینجا مطرح می‌کنم.<br />
+                  همیشه قبل از شروع یادگیری برنامه نویسی این دو سوال مطرح
+                  می‌شود:<br />
+                  آیا بهتر است به صورت self study یاد بگیریم یا یک مشاور و یک
+                  منبع جامع داشته باشیم؟ واقعیت این است هر دو روش شما را به
+                  هدف‌تان می‌رساند اما زمان رسیدن متفاوت است. ممکن است یادگیری
+                  هر زبان برنامه نویسی به صورت self study بین ۲ تا ۳ سال زمان
+                  نیاز داشته باشد. ولی اگر یک منبع آموزشی جامع با مدرس باتجربه
+                  داشته باشید که حتی پاسخگوی سوالات شما باشد آن مسیر ۳ ساله
+                  می‌تواند به یکسال تبدیل شود. من توصیه می‌کنم که اگر زمان برای
+                  شما مهم است مسیر دوم را انتخاب کنید.<br />
+                  به چه صورت برای یادگیری برنامه نویسی اقدام کنیم که نتیجه بهتری
+                  بگیریم؟ واقعیت این است که برنامه نویس بهتر کسی است که قدرت حل
+                  مسئله بهتری دارد. و این توانایی با حل مسئله و چالش‌پذیری به
+                  دست می‌آید. پس بهتر است در طول یادگیری تمرین کنید، برای خودتان
+                  پروژه تعریف کنید و در قالب پروژه چالش‌هایی را برای خودتان طرح
+                  کنید و آن چالش‌ها را در کنار آموز‌ش‌هایی که می‌بینید حل کنید.
+                  مواردی که در فرآیند چالش‌ها یاد می‌گیرید محال است که فراموش
+                  کنید. پس اگر با یک مدرس با تجربه و معتبر و تمرین و چالش‌پذیری
+                  یادگیری را شروع کنید مطمئن باشید بهترین نتیجه را می‌گیرید.<br />
+                </div>
+              </div>
+              <div class="tab">
+                <input type="checkbox" id="check2" />
+                <label for="check2"
+                  >بهترین روش یادگیری برنامه نویسی چیست؟</label
+                >
+                <div class="tab-content">
+                  وقتی در مورد بهترین روش یادگیری یک زبان برنامه نویسی خاص صحبت
+                  می‌شود باید بدانید که شما باید موارد مختلفی را درنظر بگیرید.
+                  من دو مورد از مهمترین‌ها را اینجا مطرح می‌کنم.<br />
+                  همیشه قبل از شروع یادگیری برنامه نویسی این دو سوال مطرح
+                  می‌شود:<br />
+                  آیا بهتر است به صورت self study یاد بگیریم یا یک مشاور و یک
+                  منبع جامع داشته باشیم؟ واقعیت این است هر دو روش شما را به
+                  هدف‌تان می‌رساند اما زمان رسیدن متفاوت است. ممکن است یادگیری
+                  هر زبان برنامه نویسی به صورت self study بین ۲ تا ۳ سال زمان
+                  نیاز داشته باشد. ولی اگر یک منبع آموزشی جامع با مدرس باتجربه
+                  داشته باشید که حتی پاسخگوی سوالات شما باشد آن مسیر ۳ ساله
+                  می‌تواند به یکسال تبدیل شود. من توصیه می‌کنم که اگر زمان برای
+                  شما مهم است مسیر دوم را انتخاب کنید.<br />
+                  به چه صورت برای یادگیری برنامه نویسی اقدام کنیم که نتیجه بهتری
+                  بگیریم؟ واقعیت این است که برنامه نویس بهتر کسی است که قدرت حل
+                  مسئله بهتری دارد. و این توانایی با حل مسئله و چالش‌پذیری به
+                  دست می‌آید. پس بهتر است در طول یادگیری تمرین کنید، برای خودتان
+                  پروژه تعریف کنید و در قالب پروژه چالش‌هایی را برای خودتان طرح
+                  کنید و آن چالش‌ها را در کنار آموز‌ش‌هایی که می‌بینید حل کنید.
+                  مواردی که در فرآیند چالش‌ها یاد می‌گیرید محال است که فراموش
+                  کنید. پس اگر با یک مدرس با تجربه و معتبر و تمرین و چالش‌پذیری
+                  یادگیری را شروع کنید مطمئن باشید بهترین نتیجه را می‌گیرید.<br />
+                </div>
+              </div>
+              <div class="tab">
+                <input type="checkbox" id="check3" />
+                <label for="check3"
+                  >بهترین روش یادگیری برنامه نویسی چیست؟</label
+                >
+                <div class="tab-content">
+                  وقتی در مورد بهترین روش یادگیری یک زبان برنامه نویسی خاص صحبت
+                  می‌شود باید بدانید که شما باید موارد مختلفی را درنظر بگیرید.
+                  من دو مورد از مهمترین‌ها را اینجا مطرح می‌کنم.<br />
+                  همیشه قبل از شروع یادگیری برنامه نویسی این دو سوال مطرح
+                  می‌شود:<br />
+                  آیا بهتر است به صورت self study یاد بگیریم یا یک مشاور و یک
+                  منبع جامع داشته باشیم؟ واقعیت این است هر دو روش شما را به
+                  هدف‌تان می‌رساند اما زمان رسیدن متفاوت است. ممکن است یادگیری
+                  هر زبان برنامه نویسی به صورت self study بین ۲ تا ۳ سال زمان
+                  نیاز داشته باشد. ولی اگر یک منبع آموزشی جامع با مدرس باتجربه
+                  داشته باشید که حتی پاسخگوی سوالات شما باشد آن مسیر ۳ ساله
+                  می‌تواند به یکسال تبدیل شود. من توصیه می‌کنم که اگر زمان برای
+                  شما مهم است مسیر دوم را انتخاب کنید.<br />
+                  به چه صورت برای یادگیری برنامه نویسی اقدام کنیم که نتیجه بهتری
+                  بگیریم؟ واقعیت این است که برنامه نویس بهتر کسی است که قدرت حل
+                  مسئله بهتری دارد. و این توانایی با حل مسئله و چالش‌پذیری به
+                  دست می‌آید. پس بهتر است در طول یادگیری تمرین کنید، برای خودتان
+                  پروژه تعریف کنید و در قالب پروژه چالش‌هایی را برای خودتان طرح
+                  کنید و آن چالش‌ها را در کنار آموز‌ش‌هایی که می‌بینید حل کنید.
+                  مواردی که در فرآیند چالش‌ها یاد می‌گیرید محال است که فراموش
+                  کنید. پس اگر با یک مدرس با تجربه و معتبر و تمرین و چالش‌پذیری
+                  یادگیری را شروع کنید مطمئن باشید بهترین نتیجه را می‌گیرید.<br />
+                </div>
+              </div>
+              <div class="tab">
+                <input type="checkbox" id="check4" />
+                <label for="check4"
+                  >بهترین روش یادگیری برنامه نویسی چیست؟</label
+                >
+                <div class="tab-content">
+                  وقتی در مورد بهترین روش یادگیری یک زبان برنامه نویسی خاص صحبت
+                  می‌شود باید بدانید که شما باید موارد مختلفی را درنظر بگیرید.
+                  من دو مورد از مهمترین‌ها را اینجا مطرح می‌کنم.<br />
+                  همیشه قبل از شروع یادگیری برنامه نویسی این دو سوال مطرح
+                  می‌شود:<br />
+                  آیا بهتر است به صورت self study یاد بگیریم یا یک مشاور و یک
+                  منبع جامع داشته باشیم؟ واقعیت این است هر دو روش شما را به
+                  هدف‌تان می‌رساند اما زمان رسیدن متفاوت است. ممکن است یادگیری
+                  هر زبان برنامه نویسی به صورت self study بین ۲ تا ۳ سال زمان
+                  نیاز داشته باشد. ولی اگر یک منبع آموزشی جامع با مدرس باتجربه
+                  داشته باشید که حتی پاسخگوی سوالات شما باشد آن مسیر ۳ ساله
+                  می‌تواند به یکسال تبدیل شود. من توصیه می‌کنم که اگر زمان برای
+                  شما مهم است مسیر دوم را انتخاب کنید.<br />
+                  به چه صورت برای یادگیری برنامه نویسی اقدام کنیم که نتیجه بهتری
+                  بگیریم؟ واقعیت این است که برنامه نویس بهتر کسی است که قدرت حل
+                  مسئله بهتری دارد. و این توانایی با حل مسئله و چالش‌پذیری به
+                  دست می‌آید. پس بهتر است در طول یادگیری تمرین کنید، برای خودتان
+                  پروژه تعریف کنید و در قالب پروژه چالش‌هایی را برای خودتان طرح
+                  کنید و آن چالش‌ها را در کنار آموز‌ش‌هایی که می‌بینید حل کنید.
+                  مواردی که در فرآیند چالش‌ها یاد می‌گیرید محال است که فراموش
+                  کنید. پس اگر با یک مدرس با تجربه و معتبر و تمرین و چالش‌پذیری
+                  یادگیری را شروع کنید مطمئن باشید بهترین نتیجه را می‌گیرید.<br />
+                </div>
+              </div>
+              <div class="tab">
+                <input type="checkbox" id="check5" />
+                <label for="check5"
+                  >بهترین روش یادگیری برنامه نویسی چیست؟</label
+                >
+                <div class="tab-content">
+                  وقتی در مورد بهترین روش یادگیری یک زبان برنامه نویسی خاص صحبت
+                  می‌شود باید بدانید که شما باید موارد مختلفی را درنظر بگیرید.
+                  من دو مورد از مهمترین‌ها را اینجا مطرح می‌کنم.<br />
+                  همیشه قبل از شروع یادگیری برنامه نویسی این دو سوال مطرح
+                  می‌شود:<br />
+                  آیا بهتر است به صورت self study یاد بگیریم یا یک مشاور و یک
+                  منبع جامع داشته باشیم؟ واقعیت این است هر دو روش شما را به
+                  هدف‌تان می‌رساند اما زمان رسیدن متفاوت است. ممکن است یادگیری
+                  هر زبان برنامه نویسی به صورت self study بین ۲ تا ۳ سال زمان
+                  نیاز داشته باشد. ولی اگر یک منبع آموزشی جامع با مدرس باتجربه
+                  داشته باشید که حتی پاسخگوی سوالات شما باشد آن مسیر ۳ ساله
+                  می‌تواند به یکسال تبدیل شود. من توصیه می‌کنم که اگر زمان برای
+                  شما مهم است مسیر دوم را انتخاب کنید.<br />
+                  به چه صورت برای یادگیری برنامه نویسی اقدام کنیم که نتیجه بهتری
+                  بگیریم؟ واقعیت این است که برنامه نویس بهتر کسی است که قدرت حل
+                  مسئله بهتری دارد. و این توانایی با حل مسئله و چالش‌پذیری به
+                  دست می‌آید. پس بهتر است در طول یادگیری تمرین کنید، برای خودتان
+                  پروژه تعریف کنید و در قالب پروژه چالش‌هایی را برای خودتان طرح
+                  کنید و آن چالش‌ها را در کنار آموز‌ش‌هایی که می‌بینید حل کنید.
+                  مواردی که در فرآیند چالش‌ها یاد می‌گیرید محال است که فراموش
+                  کنید. پس اگر با یک مدرس با تجربه و معتبر و تمرین و چالش‌پذیری
+                  یادگیری را شروع کنید مطمئن باشید بهترین نتیجه را می‌گیرید.<br />
+                </div>
+              </div>
+              <div class="tab">
+                <input type="checkbox" id="check6" />
+                <label for="check6"
+                  >بهترین روش یادگیری برنامه نویسی چیست؟</label
+                >
+                <div class="tab-content">
+                  وقتی در مورد بهترین روش یادگیری یک زبان برنامه نویسی خاص صحبت
+                  می‌شود باید بدانید که شما باید موارد مختلفی را درنظر بگیرید.
+                  من دو مورد از مهمترین‌ها را اینجا مطرح می‌کنم.<br />
+                  همیشه قبل از شروع یادگیری برنامه نویسی این دو سوال مطرح
+                  می‌شود:<br />
+                  آیا بهتر است به صورت self study یاد بگیریم یا یک مشاور و یک
+                  منبع جامع داشته باشیم؟ واقعیت این است هر دو روش شما را به
+                  هدف‌تان می‌رساند اما زمان رسیدن متفاوت است. ممکن است یادگیری
+                  هر زبان برنامه نویسی به صورت self study بین ۲ تا ۳ سال زمان
+                  نیاز داشته باشد. ولی اگر یک منبع آموزشی جامع با مدرس باتجربه
+                  داشته باشید که حتی پاسخگوی سوالات شما باشد آن مسیر ۳ ساله
+                  می‌تواند به یکسال تبدیل شود. من توصیه می‌کنم که اگر زمان برای
+                  شما مهم است مسیر دوم را انتخاب کنید.<br />
+                  به چه صورت برای یادگیری برنامه نویسی اقدام کنیم که نتیجه بهتری
+                  بگیریم؟ واقعیت این است که برنامه نویس بهتر کسی است که قدرت حل
+                  مسئله بهتری دارد. و این توانایی با حل مسئله و چالش‌پذیری به
+                  دست می‌آید. پس بهتر است در طول یادگیری تمرین کنید، برای خودتان
+                  پروژه تعریف کنید و در قالب پروژه چالش‌هایی را برای خودتان طرح
+                  کنید و آن چالش‌ها را در کنار آموز‌ش‌هایی که می‌بینید حل کنید.
+                  مواردی که در فرآیند چالش‌ها یاد می‌گیرید محال است که فراموش
+                  کنید. پس اگر با یک مدرس با تجربه و معتبر و تمرین و چالش‌پذیری
+                  یادگیری را شروع کنید مطمئن باشید بهترین نتیجه را می‌گیرید.<br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end faq section -->
+
+    <!-- start footer section -->
+    <footer class="container-fluid footer-section-wrapper mt-80">
+      <div class="row">
+        <div class="container">
+          <div class="col-xs-12 col-md-6 col-l-3">
+            <div class="desc">
+              <a href=""
+                ><i class="fa-solid fa-graduation-cap"></i>آموزش نوین</a
+              >
+              <p>
+                هدف مجموعه نوین افزایش سطح کیفیت آموزش و ساختن راهی برای ورود
+                دانشجویان به بازار کار تخصصی است
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-l-3">
+            <div class="service">
+              <h6>خدمات ما</h6>
+              <ul>
+                <li><a href="">دوره آموزشی</a></li>
+                <li><a href="">واحد آموزشی</a></li>
+                <li><a href="">واحد فروش</a></li>
+                <li><a href="">واحد پشتیبانی</a></li>
+                <li><a href="">ارتباط با مدیریت</a></li>
+                <li><a href="">امور آموزشگاه ها</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-l-3">
+            <div class="social">
+              <h6>شبکه های اجتماعی گروه نوین</h6>
+              <ul class="text-center">
+                <a href=""><i class="fa-brands fa-telegram"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook xs-hidden"></i></a>
+                <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href=""><i class="fa-solid fa-rss"></i></a>
+              </ul>
+              <form class="relative" action="" method="">
+                <input type="email" placeholder="اشتراک در خبر نامه..." />
+                <input class="absolute" type="submit" value="عضویت" />
+              </form>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-l-3">
+            <div class="contact-us">
+              <h6>راه های ارتباط با ما</h6>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-envelope"></i
+                  ><span>jeddi.dev@gmail.com</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i
+                  ><span>تلفن: ۷۹۱۹۰۴۸۷-۰۲۱</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-map-marker-alt"></i
+                  ><span
+                    >تهران - منطقه ۵ - بلوار اباذر - پیامبر شرقی - مجتمع گلشن -
+                    واحد ۵۶۰</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">
+        <div class="container">
+          <p>
+            تمامی حقوق مادی و معنوی محتوای این سایت برای گروه آموزش نوین محفوظ
+            است.
+          </p>
+          <span>© 2023. All Rights Reserved.</span>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer section -->
+    <script src="assets/js/main.js"></script>
+    <div class="chat-btn text-center">
+      <i class="fa-regular fa-message"></i>
+    </div>
+  </body>
+</html>

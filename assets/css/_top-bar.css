@@ -1,0 +1,42 @@
+/* start top-bar section style */
+.top-bar {
+  height: 35px;
+  background-color: var(--topbar-footer-bg);
+}
+.top-bar i {
+  color: #7b8ea1;
+  font-size: 20px;
+  vertical-align: -8px;
+}
+.top-bar span {
+  color: #7b8ea1;
+  font-size: 15px;
+}
+.contact span {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.contact i {
+  margin-left: 15px;
+}
+.social-media {
+  direction: ltr;
+}
+.social-media i {
+  margin-right: 15px;
+}
+.social-media .fa-telegram:hover {
+  color: #2aabee;
+}
+.social-media .fa-instagram:hover {
+  color: #ff0026;
+}
+.social-media .fa-facebook:hover {
+  color: #316ff6;
+}
+.social-media .fa-square-x-twitter:hover {
+  color: #fff;
+}
+.social-media .fa-rss:hover {
+  color: #ee802f;
+}

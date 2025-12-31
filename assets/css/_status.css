@@ -1,0 +1,55 @@
+/* start status section style */
+.status-section-wrapper {
+  background-color: #ffc412;
+  margin-top: 250px;
+}
+.status-section-wrapper img {
+  margin-top: 25px;
+}
+.status-section-wrapper .count {
+  font-size: 26px;
+  margin: 10px;
+  color: #fff;
+}
+.status-section-wrapper .count-title {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 992px) {
+  .status-section-wrapper {
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .status-section-wrapper {
+    margin-top: 150px;
+  }
+  .status-section-wrapper img {
+    margin-top: 22px;
+    width: 13vw;
+  }
+  .status-section-wrapper .count {
+    font-size: 22px;
+    margin: 9px;
+  }
+  .status-section-wrapper .count-title {
+    font-size: 18px;
+    margin-bottom: 22px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .status-section-wrapper {
+    margin-top: 100px;
+  }
+  .status-section-wrapper img {
+    margin-top: 20px;
+  }
+  .status-section-wrapper .count {
+    font-size: 20px;
+    margin: 8px;
+  }
+  .status-section-wrapper .count-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
