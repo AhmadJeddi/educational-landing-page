@@ -1,75 +1,83 @@
 # 🎓 Educational Landing Page
 
----
+A clean and fully responsive educational landing page built with **HTML5, CSS3, and Vanilla JavaScript**.
 
-## 🇮🇷 معرفی پروژه (فارسی)
+This project focuses on creating a modern educational website interface with responsive design principles, interactive components, and a user-friendly layout.
 
-این پروژه یک **لندینگ پیج آموزشی واکنش‌گرا** است که با HTML، CSS و JavaScript خالص طراحی شده است.
-در این صفحه بخش‌هایی مانند معرفی دوره‌ها، سوالات متداول (FAQ)، منوی ریسپانسیو و فوتر کامل پیاده‌سازی شده‌اند.
-
-### ویژگی‌ها
-
-* 📱 طراحی کاملاً ریسپانسیو
-* 📝 کارت‌های دوره آموزشی
-* ❓ بخش سوالات متداول (Accordion)
-* 🧭 منوی ناوبری ریسپانسیو
-* 🚫 بدون استفاده از فریم‌ورک
+🌐 **Live Demo:**  
+https://ahmadjeddi.github.io/educational-landing-page/
 
 ---
 
-## 🇺🇸 Project Description (English)
+## ✨ Features
 
-A clean and fully responsive educational landing page built with pure HTML, CSS, and JavaScript.
-
-This project includes course cards, FAQ accordion, responsive navigation menu, and a complete footer section.
-
-### Features
-
-* 📱 Fully responsive layout
-* 📝 Course cards section
-* ❓ FAQ accordion
-* 🧭 Responsive navigation
-* 🚫 No frameworks used
+- 📱 Fully responsive design for different screen sizes
+- 📝 Educational course cards section
+- ❓ Interactive FAQ accordion
+- 🧭 Responsive navigation menu
+- 🦶 Complete footer section
+- 🎨 Custom styling without frontend frameworks
 
 ---
 
 ## 🛠 Technologies Used
 
-* 🌐 HTML5
-* 🎨 CSS3
-* 💻 Vanilla JavaScript
-* ⭐ Font Awesome
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Font Awesome
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-```
-assets/
-├── css/
-│   └── style.css
-├── js/
-│   └── main.js
-├── img/
-└── fonts/
-index.html
+```text
+educational-landing-page/
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   ├── img/
+│   └── fonts/
+│
+└── index.html
 ```
 
 ---
 
-## 🚀 How to Run
+## 🚀 Getting Started
 
-Simply open `index.html` in your browser
-or use the online demo link above.
+To run this project locally:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/AhmadJeddi/educational-landing-page.git
+```
+
+2. Open `index.html` in your browser.
+
+No additional setup or dependencies are required.
+
+---
+
+## 🎯 Purpose
+
+This project was created to practice and demonstrate frontend development skills, including responsive layouts, UI design, and JavaScript-based interactions.
 
 ---
 
 ## 👤 Author
 
-Ahmad Jeddi
+**Ahmad JeddiZahed**
+
+GitHub:
+https://github.com/AhmadJeddi
 
 ---
 
 ## 📄 License
 
-This project is open-source and created for learning purposes.
+This project is open-source and available for learning and educational purposes.
