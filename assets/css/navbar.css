@@ -50,7 +50,7 @@ a.user-icon {
   border-radius: 3px;
 }
 .nav-left-side .sign-in:hover {
-  border: 2px solid var(--primary);
+  border: 1px solid var(--primary);
   background-color: #fff;
   color: var(--primary);
   line-height: 12px;
